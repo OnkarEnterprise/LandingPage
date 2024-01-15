@@ -19,7 +19,7 @@ import cabinet from "./cabinet.jpg";
 import chair from "./chair.png";
 import carpets from "./carpets.png";
 import slime from "./slime.png";
-import workStation from "./workStation.png";
+import workStation from "./workstation.png";
 import monarch from "./monarch.png";
 import BOM from "./BOM.png";
 import LTH from "./LTH.png";
