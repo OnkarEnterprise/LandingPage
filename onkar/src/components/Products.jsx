@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from 'react';
 import { Swiper, SwiperSlide } from "swiper/react";
 
 import "swiper/css";
@@ -9,8 +9,23 @@ import { FreeMode, Pagination } from "swiper/modules";
 
 import { RxArrowTopRight } from "react-icons/rx";
 import { ServiceData } from "../constants";
+import ProductModal from "./ProductModal";
 
 const Products = () => {
+  const [isModalOpen, setIsModalOpen] = useState(false);
+  const [selectedProduct, setSelectedProduct] = useState(null);
+
+  const openModal = (product) => {
+    setSelectedProduct(product);
+    setIsModalOpen(true);
+    document.body.style.overflow = 'hidden'; // Disable scroll when modal is open
+  };
+
+  const closeModal = () => {
+    setIsModalOpen(false);
+    document.body.style.overflow = 'unset'; // Enable scroll when modal is closed
+  };
+
   return (
     <div id="products" className="flex items-center justify-center flex-col px-4 pt-16 pb-5 bg-gray-100">
       <h2 className="text-4xl font-bold font-poppins text-center text-gray-800 mb-12">
@@ -39,7 +54,7 @@ const Products = () => {
         className="max-w-[90%] lg:max-w-[80%]"
       >
         {ServiceData.map((item) => (
-          <SwiperSlide key={item.title}>
+          <SwiperSlide key={item.title} onClick={() => openModal(item)}>
             <div className="flex flex-col bg-white gap-6 mb-20 group relative shadow-lg text-white rounded-xl px-6 py-8 h-[250px] lg:h-[400px] lg:w-[350px] overflow-hidden cursor-pointer">
               <div
                 className="inset-0 absolute bg-cover bg-center bg-white"
@@ -52,6 +67,7 @@ const Products = () => {
             </div>
           </SwiperSlide>
         ))}
+        {isModalOpen && <ProductModal product={selectedProduct} onClose={closeModal} />}
       </Swiper>
     </div>
   );

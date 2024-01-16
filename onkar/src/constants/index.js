@@ -51,37 +51,44 @@ export const ServiceData = [
     {
         title: "Modular Partiton",
         backgroundImage: modularPartition,
+        images: [people01, people02, people03]
     },
     {
         title: "Metal Cieling: Plain and Perforated",
         content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-        backgroundImage: metalCeiling
+        backgroundImage: metalCeiling,
+        images: [people01, people02, people03]
     },
     {
 
         title: "Modular WorkStation",
         content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
         backgroundImage: workStation,
+        images: [people01, people02, people03]
     },
     {
         title: "Slime Line Partition",
         content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
         backgroundImage: slime,
+        images: [people01, people02, people03]
     },
     {
         title: "Storage Solutions",
         content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
         backgroundImage: cabinet,
+        images: [people01, people02, people03]
     },
     {
         title: "Accessories",
         content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
         backgroundImage: chair,
+        images: [people01, people02, people03]
     },
     {
         title: "Carpeting and Blinds",
         content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
         backgroundImage: carpets,
+        images: [people01, people02, people03]
     },
 ];
 

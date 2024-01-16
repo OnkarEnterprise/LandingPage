@@ -1,5 +1,6 @@
 import React from 'react';
 import { FaInstagram, FaTwitter, FaFacebookF, FaLinkedinIn, FaPhone } from 'react-icons/fa';
+import { CgFileDocument} from 'react-icons/cg';
 
 const Footer = () => {
   const contacts = [
@@ -26,11 +27,14 @@ const Footer = () => {
           ))}
         </div>
         <div className="flex mt-4 lg:mt-0">
-          <a href="https://www.instagram.com/onkarenterprises.co.in?igsh=MXhkZmM4OHVrcjdyZA%3D%3D&utm_source=qr" className="text-xl mx-2 hover:text-orange-500" aria-label="Instagram">
+          <a target="_blank" href="https://www.instagram.com/onkarenterprises.co.in?igsh=MXhkZmM4OHVrcjdyZA%3D%3D&utm_source=qr" className="text-xl mx-2 hover:text-orange-500" aria-label="Instagram">
             <FaInstagram />
           </a>
-          <a href="https://www.linkedin.com/in/onkar-singh-7a3993114?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app" className="text-xl mx-2 hover:text-orange-500" aria-label="LinkedIn">
+          <a target="_blank" href="https://www.linkedin.com/in/onkar-singh-7a3993114?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app" className="text-xl mx-2 hover:text-orange-500" aria-label="LinkedIn">
             <FaLinkedinIn />
+          </a>
+          <a href="https://drive.google.com/file/d/1w_dWaa_Dz0WZg495eeKbqj9VVtncsoQ4/view?usp=sharing" target="_blank" className="text-xl mx-2 hover:text-orange-500" aria-label="LinkedIn">
+            <CgFileDocument />
           </a>
         </div>
       </div>

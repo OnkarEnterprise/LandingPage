@@ -6,6 +6,7 @@ import Products from "./Products";
 import Services from "./Services";
 import Testimonials from "./Testimonials";
 import Copyright from "./Copyright";
+import ProductModal from "./ProductModal";
 
 export {
     Navbar,
@@ -15,5 +16,6 @@ export {
     Products,
     Services,
     Testimonials,
-    Copyright
+    Copyright,
+    ProductModal
 }
