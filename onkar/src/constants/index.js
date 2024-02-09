@@ -3,6 +3,78 @@ import {
     idk, monarch, LT, LTH, LTIM, LTR, LTS, oswal, netclues, BOM, slime, workStation, carpets, cabinet, chair, people01, people02, people03, facebook, instagram, linkedin, twitter, airbnb, binance, coinbase, dropbox, office1, modularPartition, metalCeiling
 } from "../assets";
 
+import {
+    zero,
+    one,
+    two,
+    three,
+} from "../assets/CABIN";
+
+import {
+    zerocc,
+    onecc,
+    twocc,
+    threecc,
+} from "../assets/CIVIL";
+
+import {
+    zeroc,
+    onec,
+    twoc,
+    threec,
+    fourc,
+    fivec,
+    sixc,
+    sevenc,
+    eightc,
+    ninec,
+    tenc,
+    elevenc
+} from "../assets/Conference";
+
+import {
+    zerom,
+    onem,
+    twom,
+    threem,
+    fourm,
+    fivem
+} from "../assets/Miscellanious";
+
+import {
+    zerow,
+    onew,
+    twow,
+    threew,
+    fourw,
+    fivew
+} from "../assets/Workstation";
+
+import {
+    zerocu,
+    onecu,
+    twocu,
+    threecu,
+    fourcu,
+    fivecu
+} from "../assets/CUBICAL";
+
+import {
+    zerot,
+    onet,
+    twot,
+    threet,
+    fourt,
+    fivet
+} from "../assets/Tables";
+
+import {
+    zerob,
+    oneb,
+    twob,
+    threeb,
+    fourb,
+} from "../assets/Brosher_photos";
 
 export const clients = [
     {
@@ -47,48 +119,54 @@ export const clients = [
     },
 ];
 
+
 export const ServiceData = [
     {
         title: "Modular Partiton",
         backgroundImage: modularPartition,
-        images: [people01, people02, people03]
+        images: [zerocu, fourcu, fivecu]
     },
     {
         title: "Metal Cieling: Plain and Perforated",
-        content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
         backgroundImage: metalCeiling,
-        images: [people01, people02, people03]
+        images: []
     },
     {
 
         title: "Modular WorkStation",
         content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
         backgroundImage: workStation,
-        images: [people01, people02, people03]
+        images: [zerow, onew, twow, threew, fourw, fivew]
     },
     {
         title: "Slime Line Partition",
         content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
         backgroundImage: slime,
-        images: [people01, people02, people03]
+        images: [oneb, one, fourt, zerot]
     },
     {
         title: "Storage Solutions",
         content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
         backgroundImage: cabinet,
-        images: [people01, people02, people03]
+        images: [three, threem, zerow, fivew]
     },
     {
         title: "Accessories",
         content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
         backgroundImage: chair,
-        images: [people01, people02, people03]
+        images: [zeroc, onec, twoc, threec, fourc, fivec, sixc, sevenc]
     },
     {
         title: "Carpeting and Blinds",
         content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
         backgroundImage: carpets,
-        images: [people01, people02, people03]
+        images: []
+    },
+    {
+        title: "Miscellanious",
+        content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+        backgroundImage: zerom,
+        images: [onem, twom, zerom, threem, fourm, fivem,]
     },
 ];
 
