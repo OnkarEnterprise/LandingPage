@@ -26,10 +26,7 @@ import {
     fivec,
     sixc,
     sevenc,
-    eightc,
-    ninec,
-    tenc,
-    elevenc
+  
 } from "../assets/Conference";
 
 import {
