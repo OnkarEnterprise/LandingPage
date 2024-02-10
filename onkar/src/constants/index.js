@@ -1,6 +1,6 @@
 import { MdOfflineBolt } from "react-icons/md";
 import {
-    idk, monarch, LT, LTH, LTIM, LTR, LTS, oswal, netclues, BOM, slime, workStation, carpets, cabinet, chair, people01, people02, people03, facebook, instagram, linkedin, twitter, airbnb, binance, coinbase, dropbox, office1, modularPartition, metalCeiling
+    idk, monarch, LT, LTH, LTIM, LTR, LTS, oswal, netclues, BOM, slime, workStation, carpets, cabinet, chair, people01, people02, people03, facebook, instagram, linkedin, airbnb, binance, coinbase, dropbox, office1, modularPartition, metalCeiling
 } from "../assets";
 
 import {
