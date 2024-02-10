@@ -7,11 +7,11 @@ import fivem from './5.jpg';
 
 
 export {
-  zerom,
-  onem,
   twom,
   threem,
   fourm,
   fivem,
-  
+  zerom,
+  onem,
+
 };
